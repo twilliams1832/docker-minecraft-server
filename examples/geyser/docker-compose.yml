@@ -15,3 +15,7 @@ services:
       - "25575:25575"
     volumes:
       - ./data:/data
+      - plugins:/data/plugins
+
+volumes:
+   plugins:
