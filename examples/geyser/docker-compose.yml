@@ -15,3 +15,4 @@ services:
       - "25575:25575"
     volumes:
       - ./data:/data
+      - /mnt/share/artifacts:/artifacts
